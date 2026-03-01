@@ -6,7 +6,6 @@ function searchYouTube() {
         window.location.href = url;
     }
 }
-
 document.getElementById("searchInput")
 .addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
